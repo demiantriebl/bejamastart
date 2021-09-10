@@ -1,0 +1,14 @@
+.filters{
+    display: flex;
+    justify-content: space-between;
+}
+.GridComponent{
+    flex: 3;
+    display: grid;
+    
+    
+    
+}
+.Aside{
+    flex:1
+}

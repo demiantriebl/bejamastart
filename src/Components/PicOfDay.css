@@ -1,0 +1,56 @@
+.PicOfdayComponent{
+    border-bottom: 4px solid #E4E4E4 ;
+
+    padding-bottom: 65px;
+    margin-bottom: 65px;
+
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    position: relative;
+    margin-bottom: 42px;
+}
+.PicOfDay{
+    width: 100%;
+    grid-column: 1;
+    grid-row: 1;
+
+}
+.highligth{
+    background: white;
+    color: black;
+    padding-left: 39px;
+    padding-right: 39px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    font-family: 'Archivo', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 25px;
+    letter-spacing: 0.07em;
+    grid-column: 1;
+    height: fit-content;
+    bottom: 0px;
+    grid-row: 1;
+    position: absolute;
+    width: max-content;
+    display: block;
+    
+}
+.details{
+    display: flex;
+}
+.description{
+    flex: 2;
+    padding-right: 15em;
+}
+.alsoBuy{
+    flex: 1;
+}
+.gridBuy{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 42px;
+}
